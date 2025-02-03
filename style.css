@@ -113,6 +113,8 @@ header {
     object-fit: cover;
     max-width: 100%;
     border-radius: 10px;
+    border: 5px solid #3882F6;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
 }
 #random-header {
     display: flex;
@@ -125,7 +127,16 @@ header {
 }
 
 .testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.testimonial-box {
+    position: relative;
+    max-width: 70%;
 }
 
 #testimonial-text {
@@ -133,4 +144,14 @@ header {
     font-weight: light;
     color: #1F2937;
     font-style: italic;
+    padding-bottom: 40px;
+}
+
+#testimonial-author {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
 }
