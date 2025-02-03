@@ -161,7 +161,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 100px 40px;
     margin: 20px;
 }
 
@@ -198,4 +198,15 @@ header {
 #action-sign-up:hover {
     background-color: #528cf8;
     color: white;
+}
+
+/* FOOTER SECTION */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #E5E7EB;
 }
