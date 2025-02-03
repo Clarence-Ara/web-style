@@ -155,3 +155,47 @@ header {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* CALL TO ACTION SECTION */
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+.call-to-action-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 15px;
+    padding: 20px 80px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cta-text {
+    text-align: left;
+    flex: 1;
+}
+
+#action-sign-up {
+    background-color: transparent;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: no-wrap;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#action-sign-up:hover {
+    background-color: #528cf8;
+    color: white;
+}
